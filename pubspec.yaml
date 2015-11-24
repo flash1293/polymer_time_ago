@@ -1,0 +1,16 @@
+name: polymer_time_ago
+description: 
+version: 0.1.0
+author: Johannes Reuter <email@johannes-reuter.de>
+dependencies:
+  polymer: 1.0.0-rc.6
+  web_components: ^0.12.0
+  reflectable: ^0.3.0
+  polymer_elements: 1.0.0-rc.3
+transformers:
+- web_components:
+    entry_points:
+      - web/foo.html
+- reflectable:
+    entry_points:
+      - web/foo.dart
